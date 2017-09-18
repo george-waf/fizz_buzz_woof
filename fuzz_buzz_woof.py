@@ -1,5 +1,5 @@
 def solution(N):
-    for loop in range(1,N+1):
+    for loop in range(1,N+1) :
         if loop%3==0 and loop%5==0 and loop%7==0:
            print ("FizzBuzzWoof")
         elif loop%3==0 and loop%5==0:
